@@ -11,7 +11,7 @@ Focus on: collaboration, communication, data structures & algorithms, software e
 Below is my code review video, where I walk through the original artifact, analyze its structure and functionality, and explain the enhancements I planned and implemented.
 
 **Video:**  
-[YouTube unlisted link]
+https://youtu.be/vSFbwwrb2HU
 
 ---
 
