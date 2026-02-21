@@ -69,7 +69,7 @@ SCPGame/
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include <iostream>
 #include "GameEngine.h"
 
@@ -115,7 +115,7 @@ int main() {
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include "GameEngine.h"
 #include "Player.h"
 #include "Room.h"
@@ -215,7 +215,7 @@ void GameEngine::processCommand(const std::string& input) {
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include <iostream>
 #include <algorithm>
 #include <random>
@@ -308,7 +308,7 @@ bool PuzzleEngine::runPuzzleForObject(RoomObject* obj, Player& player, Room* roo
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include "PuzzleAlgorithms.h"
 #include "Puzzle.h"
 #include "Player.h"
@@ -393,7 +393,7 @@ bool PuzzleAlgorithms::runSequencePuzzle(Puzzle& puzzle, Player& player)
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include "Room.h"
 #include "Item.h"
 #include "Puzzle.h"
@@ -440,7 +440,7 @@ RoomObject* Room::getObjectByName(const std::string& name) const {
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code>
+<pre><code class="language-cpp">
 #include "DatabaseManager.h"
 #include <sqlite3.h>
 #include <iostream>
