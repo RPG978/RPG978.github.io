@@ -21,8 +21,6 @@ https://youtu.be/vSFbwwrb2HU
 This is the original, unmodified version of the artifact before enhancements. It is presented here in full for readability and ease of review.
 
 <details> <summary><strong>Click to view original Python code</strong></summary>
-
-<div style="max-height: 400px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background: #f8f8f8;">
   
 ```python
 
@@ -214,20 +212,17 @@ while True:
         msg = "Invalid command"
 ```
 
-</div>
-
 </details>
 
 - **Download / View Original Code:**  
-  [Link to original artifact]
+  [original.py](assets/artifacts/original.py)
 
 - **Description:**  
-  A brief explanation of what the original artifact
-
+This project is a Python based text adventure game built around a simple room navigation system. The player moves through a grid of rooms, collects eight pieces of equipment, and eventually encounters a boss. It’s fully playable in its current form, but intentionally minimal.
 ---
 
 ## **Enhanced Artifact**
-This section contains the improved version of the artifact after applying software engineering best practices, architectural refinements, and course‑aligned enhancements.
+This section contains the improved version of the artifact after applying software engineering best practices, architectural refinements, and course‑aligned enhancements. This artifact is a multi‑file C++ project consisting of over 20 source and header files. To keep this page readable and aligned with UI/UX expectations, only key excerpts are shown below. The full project is available in the folder linked here:
 
 - **Download / View Enhanced Code:**  
   [Link to enhanced artifact]
