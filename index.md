@@ -219,17 +219,32 @@ while True:
 
 - **Description:**  
 This project is a Python based text adventure game built around a simple room navigation system. The player moves through a grid of rooms, collects eight pieces of equipment, and eventually encounters a boss. It’s fully playable in its current form, but intentionally minimal.
----
+
 
 ## **Enhanced Artifact**
-This section contains the improved version of the artifact after applying software engineering best practices, architectural refinements, and course‑aligned enhancements. This artifact is a multi‑file C++ project consisting of over 30 source and header files. To keep this page readable and aligned with UI/UX expectations, only key excerpts are shown below. The full project is available in the folder linked here:
+This section contains the improved version of the artifact after applying software engineering best practices, architectural refinements, and course‑aligned enhancements. This artifact is a multi‑file C++ project consisting of over 30 source and header files. To keep this page readable and aligned with UI/UX expectations, only key excerpts are shown in a dedicated page:
+
+**[SCP Game Page](SCP_Artifact.md)**
+
+The full project is available in the folder linked here:
 
 - **Download / View Enhanced Code:**  
 **[View C++ SCP Game Project](assets/artifacts/SCPGame/)**
 
 
-- **Summary of Enhancements:**  
-  A short overview of changes and why.
+### Summary of Enhancements:  
+
+#### Software Design & Engineering  
+The original Python script was fully re‑implemented in C++ to demonstrate modular software engineering practices.  
+This included separating responsibilities across multiple classes (GameEngine, PuzzleEngine, Room, Player, DatabaseManager), improving maintainability, and creating a scalable architecture suitable for future expansion.
+
+#### Algorithms & Data Structures  
+A dedicated puzzle subsystem was introduced, featuring multiple puzzle types with distinct logic paths.  
+This required designing custom data structures, routing algorithms for puzzle interactions, and a clean interface for triggering puzzle behavior through player commands.
+
+#### Databases  
+The enhanced version integrates a SQLite database to drive the entire game world.  
+Rooms, items, exits, puzzles, and dynamic puzzle state are all loaded from the database at runtime, transforming the engine into a fully data‑driven system and enabling content changes without modifying source code.
 
 ---
 
