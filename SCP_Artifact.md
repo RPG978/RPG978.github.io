@@ -69,8 +69,7 @@ SCPGame/
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-```cpp
-
+<pre><code>
 #include <iostream>
 #include "GameEngine.h"
 
@@ -104,7 +103,7 @@ int main() {
     }
 }
 
-```
+</code></pre>
 
 </details>
 
@@ -115,7 +114,7 @@ int main() {
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-```cpp
+<pre><code>
 #include "GameEngine.h"
 #include "Player.h"
 #include "Room.h"
@@ -203,7 +202,7 @@ void GameEngine::processCommand(const std::string& input) {
 
     std::cout << "\n"; // spacing rule
 }
-```
+</code></pre>
 
 </details>
 
