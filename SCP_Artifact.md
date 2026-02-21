@@ -66,10 +66,10 @@ SCPGame/
 
 ### main.cpp
 
-<details>
+<details markdown="1">
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code class="language-cpp">
+```cpp
 #include <iostream>
 #include "GameEngine.h"
 
@@ -102,20 +102,17 @@ int main() {
         return 1;
     }
 }
-
-</code></pre>
+```
 
 </details>
-
-<br>
 ---
 
 ### GameEngine.cpp
 
-<details>
+<details markdown="1">
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code class="language-cpp">
+```cpp
 #include "GameEngine.h"
 #include "Player.h"
 #include "Room.h"
@@ -203,19 +200,17 @@ void GameEngine::processCommand(const std::string& input) {
 
     std::cout << "\n"; // spacing rule
 }
-</code></pre>
+```
 
 </details>
-
-<br>
 ---
 
 ### PuzzleEngine.cpp
 
-<details>
+<details markdown="1">
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code class="language-cpp">
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <random>
@@ -296,19 +291,17 @@ bool PuzzleEngine::runPuzzleForObject(RoomObject* obj, Player& player, Room* roo
     // Object has no puzzle logic associated with it.
     return false;
 }
-</code></pre>
+```
 
 </details>
-
-<br>
 ---
 
 ### PuzzleAlgorithms.cpp
 
-<details>
+<details markdown="1">
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code class="language-cpp">
+```cpp
 #include "PuzzleAlgorithms.h"
 #include "Puzzle.h"
 #include "Player.h"
@@ -381,19 +374,17 @@ bool PuzzleAlgorithms::runSequencePuzzle(Puzzle& puzzle, Player& player)
     std::cout << "Incorrect. The console resets.\n";
     return false;
 }
-</code></pre>
+```
 
 </details>
-
-<br>
 ---
 
 ### Room.cpp
 
-<details>
+<details markdown="1">
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code class="language-cpp">
+```cpp
 #include "Room.h"
 #include "Item.h"
 #include "Puzzle.h"
@@ -428,19 +419,17 @@ RoomObject* Room::getObjectByName(const std::string& name) const {
     }
     return nullptr;
 }
-</code></pre>
+```
 
 </details>
-
-<br>
 ---
 
 ### DatabaseManager.cpp
 
-<details>
+<details markdown="1">
 <summary><strong>Click to view excerpt</strong></summary>
 
-<pre><code class="language-cpp">
+```cpp
 #include "DatabaseManager.h"
 #include <sqlite3.h>
 #include <iostream>
@@ -520,10 +509,9 @@ std::map<std::string, Room*> DatabaseManager::loadRooms()
     sqlite3_finalize(stmt);
     return rooms;
 }
-</code></pre>
+```
 
 </details>
-
 ---
 
 [<- Back to Portfolio](index.md)
