@@ -107,6 +107,7 @@ int main() {
 
 </details>
 
+<br>
 ---
 
 ### GameEngine.cpp
@@ -206,6 +207,7 @@ void GameEngine::processCommand(const std::string& input) {
 
 </details>
 
+<br>
 ---
 
 ### PuzzleEngine.cpp
@@ -298,6 +300,7 @@ bool PuzzleEngine::runPuzzleForObject(RoomObject* obj, Player& player, Room* roo
 
 </details>
 
+<br>
 ---
 
 ### PuzzleAlgorithms.cpp
@@ -382,6 +385,7 @@ bool PuzzleAlgorithms::runSequencePuzzle(Puzzle& puzzle, Player& player)
 
 </details>
 
+<br>
 ---
 
 ### Room.cpp
@@ -428,6 +432,7 @@ RoomObject* Room::getObjectByName(const std::string& name) const {
 
 </details>
 
+<br>
 ---
 
 ### DatabaseManager.cpp
