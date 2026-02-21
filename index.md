@@ -24,7 +24,7 @@ This is the original, unmodified version of the artifact before enhancements. It
 <summary><strong>Click to view original Python code</strong></summary>
 
 <pre><code>
-# Christopher Poole DEBUG*
+# Christopher Poole
 # IT - 140 Text Based Game
 import os  # used to operate cls
 
