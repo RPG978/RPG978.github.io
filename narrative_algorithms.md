@@ -13,3 +13,5 @@ Another challenge involved managing states across multiple systems. Early in dev
 Selecting appropriate data structures was equally important. Lever states, spray colors, and room conditions all required different representations, and choosing between vectors, enums, booleans, and object based models required evaluating trade offs in clarity, scalability, and complexity. Each decision pushed the system closer to a cohesive algorithmic framework rather than a collection of isolated features. 
 
 Finally, integrating new mechanics such as the mixer puzzle, the spray and reveal system, and the boss room gating logic tested the flexibility of the architecture. Each addition surfaced edge cases, invalid states, and ordering issues that had to be resolved through careful reasoning and iterative refinement. These challenges ultimately strengthened the design, ensuring that puzzles could be triggered, retried, and resolved through consistent and reliable algorithms.
+
+[<- Back to Portfolio](index.md)
