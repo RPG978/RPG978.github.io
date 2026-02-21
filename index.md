@@ -252,22 +252,18 @@ Rooms, items, exits, puzzles, and dynamic puzzle state are all loaded from the d
 
 Each narrative explains the enhancement process, the skills demonstrated, and the course outcomes addressed.
 
-## **Narrative 1**
-[Insert narrative here.]
 
+- [**Software Design & Engineering Narrative**](narrative_software_design.md)
 
----
 
 
 ### **Narrative 2**  
 [Insert narrative here.]
 
----
 
 ### **Narrative 3**  
 [Insert narrative here.]
 
----
 
 # **Contact Information**
 
