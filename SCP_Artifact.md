@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # C++ SCP Game
 
 This artifact is a multi‑file C++ project consisting of several source, header, and data files.  
