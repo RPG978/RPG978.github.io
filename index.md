@@ -238,7 +238,7 @@ The full project is available in the folder linked here:
 The original Python script was fully re‑implemented in C++ to demonstrate modular software engineering practices.  
 This included separating responsibilities across multiple classes (GameEngine, PuzzleEngine, Room, Player, DatabaseManager), improving maintainability, and creating a scalable architecture suitable for future expansion.
 
-#### Algorithms & Data Structures  
+#### Algorithms & Data Structure  
 A dedicated puzzle subsystem was introduced, featuring multiple puzzle types with distinct logic paths.  
 This required designing custom data structures, routing algorithms for puzzle interactions, and a clean interface for triggering puzzle behavior through player commands.
 
@@ -257,12 +257,10 @@ Each narrative explains the enhancement process, the skills demonstrated, and th
 
 
  
-- [**Algorithms & Data Structures Narrative**](narrative_algorithms.md)
+- [**Algorithms & Data Structure Narrative**](narrative_algorithms.md)
 
 
-### **Narrative 3**  
-[Insert narrative here.]
-
+- [**Databases Narrative**](narrative_databases.md)
 
 # **Contact Information**
 
