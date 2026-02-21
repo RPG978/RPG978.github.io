@@ -10,8 +10,9 @@ Focus on: collaboration, communication, data structures & algorithms, software e
 
 Below is my code review video, where I walk through the original artifact, analyze its structure and functionality, and explain the enhancements I planned and implemented.
 
-**Video:**  
-https://youtu.be/vSFbwwrb2HU
+ 
+**[Code Review Video](https://youtu.be/vSFbwwrb2HU)**
+
 
 ---
 
@@ -215,7 +216,7 @@ while True:
 </details>
 
 - **Download / View Original Code:**  
-**[original.py](assets/artifacts/original.py)**
+**[original.py](https://github.com/RPG978/RPG978.github.io/tree/main/assets/artifacts)**
 
 - **Description:**  
 This project is a Python based text adventure game built around a simple room navigation system. The player moves through a grid of rooms, collects eight pieces of equipment, and eventually encounters a boss. It’s fully playable in its current form, but intentionally minimal.
@@ -229,7 +230,7 @@ This section contains the improved version of the artifact after applying softwa
 The full project is available in the folder linked here:
 
 - **Download / View Enhanced Code:**  
-**[View C++ SCP Game Project](assets/artifacts/SCPGame/)**
+**[View C++ SCP Game Project](https://github.com/RPG978/RPG978.github.io/tree/main/assets/artifacts/SCPGame)**
 
 
 ### Summary of Enhancements:  
