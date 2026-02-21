@@ -8,7 +8,7 @@ This artifact is a multi‑file C++ project consisting of several source, header
 To keep this page readable and aligned with UI/UX expectations, only key excerpts are shown below.  
 The full project is available here:
 
-**[View Full Original C++ Project](assets/artifacts/SCPGame/)**
+**[View Full Original C++ Project](/assets/artifacts/SCPGame/)**
 
 ## Purpose of the Artifact
 
