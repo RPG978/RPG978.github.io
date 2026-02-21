@@ -1,13 +1,5 @@
-remote_theme: pages-themes/modernist@v0.2.0
-
+theme: jekyll-theme-cayman
 markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
 
-plugins:
-  - jekyll-remote-theme
-
-title: RPG978's homepage
-description: Demonstration of computer science projects (DEBUG).
+title: RPG978's homepage DEBUG
+description: Demonstration of computer science projects.
