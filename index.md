@@ -215,17 +215,18 @@ while True:
 </details>
 
 - **Download / View Original Code:**  
-  [original.py](assets/artifacts/original.py)
+**[original.py](assets/artifacts/original.py)**
 
 - **Description:**  
 This project is a Python based text adventure game built around a simple room navigation system. The player moves through a grid of rooms, collects eight pieces of equipment, and eventually encounters a boss. It’s fully playable in its current form, but intentionally minimal.
 ---
 
 ## **Enhanced Artifact**
-This section contains the improved version of the artifact after applying software engineering best practices, architectural refinements, and course‑aligned enhancements. This artifact is a multi‑file C++ project consisting of over 20 source and header files. To keep this page readable and aligned with UI/UX expectations, only key excerpts are shown below. The full project is available in the folder linked here:
+This section contains the improved version of the artifact after applying software engineering best practices, architectural refinements, and course‑aligned enhancements. This artifact is a multi‑file C++ project consisting of over 30 source and header files. To keep this page readable and aligned with UI/UX expectations, only key excerpts are shown below. The full project is available in the folder linked here:
 
 - **Download / View Enhanced Code:**  
-  [Link to enhanced artifact]
+**[View C++ SCP Game Project](assets/artifacts/SCPGame/)**
+
 
 - **Summary of Enhancements:**  
   A short overview of changes and why.
