@@ -256,9 +256,8 @@ Each narrative explains the enhancement process, the skills demonstrated, and th
 - [**Software Design & Engineering Narrative**](narrative_software_design.md)
 
 
-
-### **Narrative 2**  
-[Insert narrative here.]
+ 
+- [**Algorithms & Data Structures Narrative**](narrative_algorithms.md)
 
 
 ### **Narrative 3**  
