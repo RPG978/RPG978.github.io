@@ -23,9 +23,8 @@ This is the original, unmodified version of the artifact before enhancements. It
 <details>
 <summary><strong>Click to view original Python code</strong></summary>
 
-{% raw %}
-```python
-# Christopher Poole
+<pre><code>
+# Christopher Poole [DEBUG]
 # IT - 140 Text Based Game
 import os  # used to operate cls
 
@@ -211,8 +210,7 @@ while True:
     # Any other commands invalid
     else:
         msg = "Invalid command"
-```
-{% endraw %}
+</code></pre>
 
 </details>
 
