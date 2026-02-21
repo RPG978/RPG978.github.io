@@ -213,7 +213,7 @@ void GameEngine::processCommand(const std::string& input) {
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-```cpp
+<pre><code>
 #include <iostream>
 #include <algorithm>
 #include <random>
@@ -294,7 +294,7 @@ bool PuzzleEngine::runPuzzleForObject(RoomObject* obj, Player& player, Room* roo
     // Object has no puzzle logic associated with it.
     return false;
 }
-```
+</code></pre>
 
 </details>
 
@@ -305,7 +305,7 @@ bool PuzzleEngine::runPuzzleForObject(RoomObject* obj, Player& player, Room* roo
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-```cpp
+<pre><code>
 #include "PuzzleAlgorithms.h"
 #include "Puzzle.h"
 #include "Player.h"
@@ -378,7 +378,7 @@ bool PuzzleAlgorithms::runSequencePuzzle(Puzzle& puzzle, Player& player)
     std::cout << "Incorrect. The console resets.\n";
     return false;
 }
-```
+</code></pre>
 
 </details>
 
@@ -389,7 +389,7 @@ bool PuzzleAlgorithms::runSequencePuzzle(Puzzle& puzzle, Player& player)
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-```cpp
+<pre><code>
 #include "Room.h"
 #include "Item.h"
 #include "Puzzle.h"
@@ -424,7 +424,7 @@ RoomObject* Room::getObjectByName(const std::string& name) const {
     }
     return nullptr;
 }
-```
+</code></pre>
 
 </details>
 
@@ -435,7 +435,7 @@ RoomObject* Room::getObjectByName(const std::string& name) const {
 <details>
 <summary><strong>Click to view excerpt</strong></summary>
 
-```cpp
+<pre><code>
 #include "DatabaseManager.h"
 #include <sqlite3.h>
 #include <iostream>
@@ -515,7 +515,7 @@ std::map<std::string, Room*> DatabaseManager::loadRooms()
     sqlite3_finalize(stmt);
     return rooms;
 }
-```
+</code></pre>
 
 </details>
 
