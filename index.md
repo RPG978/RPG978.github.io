@@ -23,6 +23,7 @@ This is the original, unmodified version of the artifact before enhancements. It
 <details>
 <summary><strong>Click to view original Python code</strong></summary>
 
+{% raw %}
 ```python
 # Christopher Poole
 # IT - 140 Text Based Game
@@ -211,6 +212,7 @@ while True:
     else:
         msg = "Invalid command"
 ```
+{% endraw %}
 
 </details>
 
