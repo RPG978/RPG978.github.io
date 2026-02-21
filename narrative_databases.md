@@ -29,3 +29,5 @@ I also learned the importance of selecting appropriate data structures. Lever st
 Finally, integrating new mechanics such as the mixer puzzle, the spray and reveal system, and the containment room gating logic tested the flexibility of the architecture. Each addition surfaced edge cases and invalid states that had to be resolved through careful reasoning and iterative refinement. These challenges ultimately strengthened the system and deepened my understanding of algorithmic design and software engineering.
 
 Overall, this artifact demonstrates to future employers that I can design scalable architectures, integrate databases into application logic, and build systems that are maintainable, extensible, and grounded in sound engineering principles.
+
+[<- Back to Portfolio](index.md)
