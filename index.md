@@ -20,10 +20,10 @@ https://youtu.be/vSFbwwrb2HU
 ## **Original Artifact**
 This is the original, unmodified version of the artifact before enhancements. It is presented here in full for readability and ease of review.
 
-<details> <summary><strong>Click to view original Python code</strong></summary>
+<details> 
+<summary><strong>Click to view original Python code</strong></summary>
   
 ```python
-
 # Christopher Poole
 # IT - 140 Text Based Game
 import os  # used to operate cls
