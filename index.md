@@ -1,8 +1,10 @@
 # **Professional Self‑Assessment**
 
 Welcome to my Computer Science ePortfolio. This collection of artifacts represents the culmination of my academic work, my growth as a software engineer, and the professional skills I have developed throughout the program.  
-[self‑assessment
-Focus on: collaboration, communication, data structures & algorithms, software engineering, databases, security, and how the program shaped your goals.]
+
+Below is a reflection of the capstone and my experience in the Computer Science program at SNHU.
+
+**[Professional Self-Assessment](self_assessment.md)**
 
 ---
 
