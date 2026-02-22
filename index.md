@@ -268,6 +268,5 @@ Each narrative explains the enhancement process, the skills demonstrated, and th
 If you'd like to connect or learn more about my work:
 
 - **GitHub:** https://github.com/rpg978  
-- **LinkedIn:** []  
-- **Email:** []
+- **Email:** christopher.poole3@snhu.edu
 
