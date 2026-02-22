@@ -256,19 +256,19 @@ Rooms, items, exits, puzzles, and dynamic puzzle state are all loaded from the d
 Each narrative explains the enhancement process, the skills demonstrated, and the course outcomes addressed.
 
 
- [**Software Design & Engineering Narrative**](narrative_software_design.md)
+ **[Software Design & Engineering Narrative](narrative_software_design.md)**
 
 
  
- [**Algorithms & Data Structure Narrative**](narrative_algorithms.md)
+ **[Algorithms & Data Structure Narrative](narrative_algorithms.md)**
 
 
- [**Databases Narrative**](narrative_databases.md)
+ **[Databases Narrative](narrative_databases.md)**
 
 # **Contact Information**
 
 If you'd like to connect or learn more about my work:
 
-- **GitHub:** https://github.com/rpg978  
-- **Email:** christopher.poole3@snhu.edu
+- GitHub: **https://github.com/rpg978**  
+- Email: **christopher.poole3@snhu.edu**
 
