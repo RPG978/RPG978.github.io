@@ -16,6 +16,8 @@ This project demonstrates my ability to design and implement a modular, object�
 It includes a database‑driven world model, a puzzle subsystem, a command parser, and a dynamic room navigation system.  
 I selected this artifact because it showcases my ability to work with multi‑file architectures, subsystem integration, and data‑driven game logic.
 
+## Code Review
+**[View Full Code Review](https://youtu.be/IrzCdv4sIl0)**
 
 ## Project Structure
 
