@@ -4,20 +4,20 @@ layout: default
 
 # C++ SCP Game
 
-This artifact is a multi‑file C++ project consisting of several source, header, and data files.  
-To keep this page readable and aligned with UI/UX expectations, only key excerpts are shown below.  
-The full project is available here:
+## Artifact Summary
+The C++ SCP game is a full re‑implementation of the original Python SCP project. The goal of this enhancement was to transform a procedural, single‑file Python script into a scalable, maintainable, and extensible C++ application. The enhanced version introduces a multi-file architecture, encapsulated state and behavior, improved input handling, a data-driven world loaded from external files and a cleaner seperation of concerns.
+
 
 **[View Full Original C++ Project](https://github.com/RPG978/RPG978.github.io/tree/main/assets/artifacts/SCPGame)**
 
-## Purpose of the Artifact
-
-This project demonstrates my ability to design and implement a modular, object‑oriented C++ application.  
-It includes a database‑driven world model, a puzzle subsystem, a command parser, and a dynamic room navigation system.  
-I selected this artifact because it showcases my ability to work with multi‑file architectures, subsystem integration, and data‑driven game logic.
+---
 
 ## Code Review
+This review opens with a short gameplay demo and then breaks down the game’s internal architecture, focusing on how room, item, and puzzle data is loaded into structured in‑memory objects and how player actions drive interactions with those systems.
+
 **[View Full Code Review](https://youtu.be/IrzCdv4sIl0)**
+
+---
 
 ## Project Structure
 
@@ -107,6 +107,7 @@ int main() {
 ```
 
 </details>
+
 ---
 
 ### GameEngine.cpp
@@ -205,6 +206,7 @@ void GameEngine::processCommand(const std::string& input) {
 ```
 
 </details>
+
 ---
 
 ### PuzzleEngine.cpp
@@ -296,6 +298,7 @@ bool PuzzleEngine::runPuzzleForObject(RoomObject* obj, Player& player, Room* roo
 ```
 
 </details>
+
 ---
 
 ### PuzzleAlgorithms.cpp
@@ -379,6 +382,7 @@ bool PuzzleAlgorithms::runSequencePuzzle(Puzzle& puzzle, Player& player)
 ```
 
 </details>
+
 ---
 
 ### Room.cpp
@@ -424,6 +428,7 @@ RoomObject* Room::getObjectByName(const std::string& name) const {
 ```
 
 </details>
+
 ---
 
 ### DatabaseManager.cpp
@@ -514,6 +519,46 @@ std::map<std::string, Room*> DatabaseManager::loadRooms()
 ```
 
 </details>
+
+---
+
+## **Narratives**
+
+Each narrative explains the enhancement process, the skills demonstrated, and the course outcomes addressed.
+
+
+ **[Software Design & Engineering Narrative](narrative_software_design.md)**
+
+
+ 
+ **[Algorithms & Data Structure Narrative](narrative_algorithms.md)**
+
+
+ **[Databases Narrative](narrative_databases.md)**
+ 
+---
+
+## Summary of Enhancements:  
+
+#### Software Design & Engineering  
+The original Python script was fully re‑implemented in C++ to demonstrate modular software engineering practices.  
+This included separating responsibilities across multiple classes (GameEngine, PuzzleEngine, Room, Player, DatabaseManager), improving maintainability, and creating a scalable architecture suitable for future expansion.
+
+#### Algorithms & Data Structure  
+A dedicated puzzle subsystem was introduced, featuring multiple puzzle types with distinct logic paths.  
+This required designing custom data structures, routing algorithms for puzzle interactions, and a clean interface for triggering puzzle behavior through player commands.
+
+#### Databases  
+The enhanced version integrates a SQLite database to drive the entire game world.  
+Rooms, items, exits, puzzles, and dynamic puzzle state are all loaded from the database at runtime, transforming the engine into a fully data‑driven system and enabling content changes without modifying source code.
+
+---
+
+## Original Artifact
+This is the project implemented in Python - available here:
+
+**[Python SCP Game Page](artifact_scp_python.md)**
+
 ---
 
 [<- Back to Portfolio](index.md)
