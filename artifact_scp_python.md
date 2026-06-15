@@ -2,13 +2,8 @@
 layout: default
 ---
 
-# Python SCP Game - Original Artifact
-## Overview
-This page presents the original Python SCP text-based game, developed as part of IT-140. It demonstrates foundational programming skills
-including control flow, functions, input handling and basic game loop logic. This artifact later served as the foundation for
-the C++ enhanced version, which expanded the architecture and improved modularity.
+# Python SCP Game
 
----
 ## Artifact Summary
 This project is a Python based text adventure game built around a simple room navigation system. 
 The player moves through a grid of rooms, collects eight pieces of equipment, and eventually encounters a boss. 
