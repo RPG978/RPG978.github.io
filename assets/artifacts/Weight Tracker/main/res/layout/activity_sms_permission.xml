@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/smsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Explanation -->
+    <TextView
+        android:id="@+id/smsExplanation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_explanation"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/smsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="600dp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/phoneNumberInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="phone number"
+        android:hint="@string/enter_your_phone_number"
+        android:inputType="phone"
+        android:layout_marginTop="24dp"
+        style="@style/EditTextStandard"
+        app:layout_constraintTop_toBottomOf="@id/smsExplanation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="320dp" />
+
+
+    <!-- Request Permission Button -->
+    <Button
+        android:id="@+id/requestSmsPermissionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_sms"
+        style="@style/PrimaryButton"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        app:layout_constraintTop_toBottomOf="@id/phoneNumberInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="320dp"
+        android:layout_marginTop="24dp" />
+
+    <!-- Continue Without SMS Button -->
+    <Button
+        android:id="@+id/continueWithoutSmsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_without_sms"
+        style="@style/SecondaryButton"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        app:layout_constraintTop_toBottomOf="@id/requestSmsPermissionButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="320dp"
+        android:layout_marginTop="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/addWeightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_weight_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Date Input -->
+    <EditText
+        android:id="@+id/dateInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_date_hint"
+        android:focusable="true"
+        android:clickable="true"
+        android:inputType="date"
+        android:cursorVisible="false"
+        android:autofillHints="date"
+        android:importantForAccessibility="yes"
+        style="@style/EditTextStandard"
+        app:layout_constraintTop_toBottomOf="@id/addWeightTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="320dp"
+        android:layout_marginTop="24dp" />
+
+    <!-- Weight Input -->
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_weight_hint"
+        android:inputType="numberDecimal"
+        android:autofillHints="weight"
+        style="@style/EditTextStandard"
+        app:layout_constraintTop_toBottomOf="@id/dateInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="320dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/confirmAddButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_add"
+        style="@style/PrimaryButton"
+        app:layout_constraintTop_toBottomOf="@id/weightInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="320dp"
+        android:layout_marginTop="24dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        style="@style/SecondaryButton"
+        app:layout_constraintTop_toBottomOf="@id/confirmAddButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="320dp"
+        android:layout_marginTop="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

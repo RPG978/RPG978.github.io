@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and Secondary Theme Colors -->
+    <color name="primary">#3F51B5</color>         <!-- Indigo -->
+    <color name="secondary">#E65100</color>       <!-- Orange -->
+
+    <!-- Neutral Colors -->
+    <color name="gray">#CCCCCC</color>            <!-- Light Gray -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="light_gray">#D3D3D3</color> <!-- Light gray -->
+
+
+</resources>
