@@ -1,4 +1,4 @@
-# CS 350
+# SNHU - CS 350
 # Thermostat - This is the Python code used to demonstrate
 # the functionality of the thermostat that we have prototyped throughout
 # the course. 
