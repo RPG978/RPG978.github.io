@@ -29,7 +29,7 @@ This page contains the Java Weight Tracker artifact developed in Android Studio.
 **[Weight Tracker app Page](artifact_WeightTracker.md)**
 
 ## **IOT Thermostat**
-
+This page presents an embedded IoT thermostat prototype developed for a computer science course.
 
 **[IOT Thermostat Page](artifact_Thermostat.md)**
 
