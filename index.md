@@ -21,7 +21,17 @@ This page contains the enhanced C++ version of the Python SCP artifact. This enh
 ## **Java ReelChoice Artifact**
 This page contains the Java ReelChoice artifact developed in Android Studio. This app applies MVVM patterns, ViewModels, and repository‑based data handling to create a maintainable and extensible Android codebase.
 
-**[Java ReelChoice app Page](artifact_ReelChoice.md)**
+**[ReelChoice app Page](artifact_ReelChoice.md)**
+
+## **Java Weight Tracker Artifact**
+This page contains the Java Weight Tracker artifact developed in Android Studio. 
+
+**[Weight Tracker app Page](artifact_WeightTracker.md)**
+
+## **IOT Thermostat**
+
+
+**[IOT Thermostat Page](artifact_Thermostat.md)**
 
 ---
 
