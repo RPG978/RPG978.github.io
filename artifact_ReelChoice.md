@@ -13,7 +13,7 @@ RecyclerView UI patterns, and asynchronous data handling.
 
 ## Original Java Code
 
-**[ReelChoice](https://github.com/RPG978/ReelChoice)**
+**[ReelChoice](https://github.com/RPG978/RPG978.github.io/tree/main/assets/artifacts/ReelChoice)**
 
 ---
 
