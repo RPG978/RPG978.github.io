@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReelChoice</string>
+    <string name="enter_movie_name">Enter movie name</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="pick_random_movie">Pick Random Movie</string>
+    <string name="random_movie_will_appear_here">Random movie will appear here</string>
+</resources>
