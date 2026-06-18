@@ -30,4 +30,4 @@ Incremental testing played a major role in validating the new architecture. As e
 
 Finally, creating an initial UML class diagram helped guide the early design. As the project evolved, the UML naturally diverged from the original plan, reflecting a deeper understanding of the system’s needs. This experience reinforced the value of UML as a living design tool rather than a static document.
 
-[<- Back to Portfolio](index.md)
+[<- Back to C++ SCP Game Page](SCP_Artifact.md)
