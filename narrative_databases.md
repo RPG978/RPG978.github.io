@@ -1,33 +1,39 @@
-# Databases
-## 1.	Briefly describe the artifact. What is it? When was it created?
-The artifact for this category is the same text based adventure game I have been enhancing throughout the program, originally created in IT 140: Introduction to Scripting. The initial version was a small, procedural Python script designed to demonstrate basic programming constructs. Over time, and especially through the Category One and Two enhancements, I transformed it into a modular, object oriented C++ application with a database driven architecture. For Category Three, I extended this foundation by integrating a fully dynamic puzzle engine, database defined room objects, and a complete end to end gameplay loop that supports scalable content creation and complex state interactions. These enhancements shifted the project from a hard coded game into a system capable of loading world data, puzzles, and interactions directly from a SQLite database.
-## 2.	Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?
-I selected this artifact because it represents the clearest demonstration of my growth as a game developer and aligns directly with my long term goals in system design. What started as a small procedural script evolved into a modular, object oriented, database driven C++ application capable of supporting complex interactions and scalable gameplay. 
+# Software Design and Engineering
 
-The Category Three enhancements highlight my ability to design and integrate multiple subsystems such as command parsing, puzzle engines, item interactions, and room state machines into a cohesive architecture. More importantly, they demonstrate my ability to build a data driven engine where gameplay behavior is defined by external data rather than hard coded logic. From a database perspective, the game now loads room names, descriptions, exits, locked states, items, room objects, puzzle definitions, puzzle states and dynamic conditions that change as the player progresses. This structure allows the engine to reuse and reinterpret data at runtime. For example, puzzles can be modified or added by updating the SQLite tables without changing the C++ source code. This demonstrates my ability to design systems that separate content from logic.
+## Purpose of the Enhancement
+This enhancement builds on the same text‑based adventure game I have been evolving throughout the program. The original artifact, created in IT‑140, began as a small procedural Python script demonstrating basic programming constructs. Through earlier enhancements, it grew into a modular, object‑oriented C++ application.
+For this category, I extended the system into a fully data‑driven engine by integrating SQLite and shifting core gameplay behavior such as rooms, puzzles, and interactions, out of hard coded logic and into structured database tables. This redesign transformed the project from a static game into a dynamic system capable of loading world data, puzzle definitions, and stateful interactions directly from a database.
 
-The artifact also showcases deliberate choices in data structures and algorithms. Replacing legacy logic with structured state machines, deterministic command routing, and consistent data representations allowed puzzles and interactions to behave predictably and scale cleanly. The lever puzzle, reagent mixer, spray and reveal mechanic, and containment room gating logic all required careful decisions about state management, control flow, and system boundaries.
-## 3.	Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
-Through the category three enhancements I found that my work naturally expanded to address all five course outcomes. The modular, data driven architecture supports collaborative development. Puzzles, rooms, objects, and engine logic are separated into clear subsystems that future developers can extend without interfering with each other’s work.
+## Enhancements Made
+The Category Three enhancements focused on building a database‑driven architecture that cleanly separates content from logic. Instead of embedding room descriptions, exits, puzzle states, and item interactions directly in C++, the engine now loads all of this information from SQLite tables at runtime.
+This shift required designing a schema that represents rooms, objects, puzzles, states, and conditions in a way the engine can interpret predictably. The game now supports dynamic puzzle definitions, room objects with behaviors, locked exits, and multi‑step interactions that are all defined externally. Updating or adding content no longer requires modifying C++ source code; developers can adjust the SQLite tables and the engine will reinterpret the world accordingly.
+These enhancements demonstrate my ability to design scalable systems, integrate databases into application logic, and build engines that support extensible gameplay through data‑driven design.
 
-I strengthened professional communication through clear puzzle descriptions, consistent UX messaging, structured room text, and well documented code. The system messages are coherent and player focused, while the codebase is readable and maintainable.
+## Skills Demonstrated
 
-I implemented structured puzzle algorithms, deterministic command parsing, state machines for rooms and puzzles, input validation, gating logic, and multi step interactions. Each system required evaluating tradeoffs in data structures, control flow, and state representation.
+- __Database‑driven architecture:__ loading rooms, puzzles, items, and interactions from SQLite.
 
-I demonstrated a sophisticated use of tools and technology through modular C++ design, object oriented architecture, SQLite integration, separation of concerns, and iterative refactoring. Integrating new systems without breaking existing functionality required disciplined engineering practices.
+- __Schema design:__ representing game entities, states, and relationships.
 
-I anticipated invalid states, prevented unintended interactions, validated user input, and designed controlled state transitions. For example, the database loader verifies that all referenced room IDs and puzzle IDs exist before the engine initializes, preventing the game from entering an undefined or unsafe state.
+- __Separation of content from logic:__ enabling scalable and maintainable gameplay.
 
-While the system now satisfies the requirements for this course, I view it as a strong architectural foundation rather than a finished product. With further development, it could evolve into a fully data driven engine capable of generating entire worlds, puzzles, and item interactions directly from SQLite content without modifying the source code.
-## 4.	Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
-Learning to treat the game as a network of interacting systems was an area of growth. This required restructuring the original procedural logic into predictable, reusable components. I learned how to design a puzzle engine that cleanly separates puzzle logic from game logic, how to route commands deterministically, and how to manage state transitions without creating contradictions.
+- __Dynamic puzzle loading:__ allowing new puzzles to be added without modifying C++ code.
 
-Debugging the system taught me to trace execution paths carefully, identify unreachable code, and reason about how state flows through the engine. Issues such as early returns, unordered checks, and inconsistent naming conventions revealed how fragile a system can become without clear architectural rules. Fixing these problems required deliberate sequencing, explicit state flags, and a more disciplined approach to control flow.
+- __Structured state machines:__ puzzle progression and room behavior.
 
-I also learned the importance of selecting appropriate data structures. Lever states, spray colors, puzzle triggers, and room conditions all required different representations, and choosing between vectors, enums, booleans, and object based models forced me to evaluate clarity, scalability, and long term maintainability.
+- __Deterministic command routing:__ database defined interactions.
 
-Finally, integrating new mechanics such as the mixer puzzle, the spray and reveal system, and the containment room gating logic tested the flexibility of the architecture. Each addition surfaced edge cases and invalid states that had to be resolved through careful reasoning and iterative refinement. These challenges ultimately strengthened the system and deepened my understanding of algorithmic design and software engineering.
+- __Input validation and defensive programming:__ preventing invalid or unsafe states.
 
-Overall, this artifact demonstrates to future employers that I can design scalable architectures, integrate databases into application logic, and build systems that are maintainable, extensible, and grounded in sound engineering principles.
+- __Use of industry tools:__ including SQLite, Visual Studio, Git, and debugging utilities.
+ 
+- __Clear technical communication:__ documenting database structures and engine behavior.
 
-[<- Back to Portfolio](index.md)
+## Challenges & Lessons Learned
+Treating the game as a network of interacting systems required rethinking the original procedural logic and restructuring it into predictable, reusable components. I learned how to design a puzzle engine that cleanly separates puzzle logic from game logic, how to route commands deterministically, and how to manage state transitions without creating contradictions.
+Debugging the system taught me to trace execution paths carefully, identify unreachable code, and reason about how state flows through the engine. Issues such as early returns, unordered checks, and inconsistent naming conventions revealed how fragile a system can become without clear architectural rules. Fixing these problems required deliberate sequencing, explicit state flags, and disciplined control flow.
+Selecting appropriate data structures was another key learning experience. Lever states, spray colors, puzzle triggers, and room conditions each required different representations, and choosing between vectors, enums, booleans, and object based models meant evaluating clarity, scalability, and long term maintainability.
+Integrating new mechanics, such as the mixer puzzle and spray‑and‑reveal system, tested the flexibility of the architecture. Each addition surfaced edge cases and invalid states that had to be resolved through careful reasoning and iterative refinement. These challenges ultimately strengthened the system and deepened my understanding of algorithmic design, data‑driven architecture, and software engineering principles.
+Overall, this artifact demonstrates my ability to design scalable architectures, integrate databases into application logic, and build systems that are maintainable, extensible, and grounded in sound engineering practices.
+
+[<- Back to C++ SCP Game Page](SCP_Artifact.md)
