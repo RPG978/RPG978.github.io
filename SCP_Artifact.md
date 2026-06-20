@@ -66,10 +66,8 @@ SCPGame/
 
 ## Representative Code Excerpts
 
-### main.cpp
-
 <details markdown="1">
-<summary><strong>Click to view excerpt</strong></summary>
+<summary><strong>main.cpp</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -108,12 +106,8 @@ int main() {
 
 </details>
 
----
-
-### GameEngine.cpp
-
 <details markdown="1">
-<summary><strong>Click to view excerpt</strong></summary>
+<summary><strong>GameEngine.cpp</strong></summary>
 
 ```cpp
 #include "GameEngine.h"
@@ -207,12 +201,8 @@ void GameEngine::processCommand(const std::string& input) {
 
 </details>
 
----
-
-### PuzzleEngine.cpp
-
 <details markdown="1">
-<summary><strong>Click to view excerpt</strong></summary>
+<summary><strong>PuzzleEngine.cpp</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -299,12 +289,8 @@ bool PuzzleEngine::runPuzzleForObject(RoomObject* obj, Player& player, Room* roo
 
 </details>
 
----
-
-### PuzzleAlgorithms.cpp
-
 <details markdown="1">
-<summary><strong>Click to view excerpt</strong></summary>
+<summary><strong>PuzzleAlgorithms.cpp</strong></summary>
 
 ```cpp
 #include "PuzzleAlgorithms.h"
@@ -383,12 +369,8 @@ bool PuzzleAlgorithms::runSequencePuzzle(Puzzle& puzzle, Player& player)
 
 </details>
 
----
-
-### Room.cpp
-
 <details markdown="1">
-<summary><strong>Click to view excerpt</strong></summary>
+<summary><strong>Room.cpp</strong></summary>
 
 ```cpp
 #include "Room.h"
@@ -429,12 +411,9 @@ RoomObject* Room::getObjectByName(const std::string& name) const {
 
 </details>
 
----
-
-### DatabaseManager.cpp
 
 <details markdown="1">
-<summary><strong>Click to view excerpt</strong></summary>
+<summary><strong>DatabaseManager.cpp</strong></summary>
 
 ```cpp
 #include "DatabaseManager.h"
@@ -443,7 +422,7 @@ RoomObject* Room::getObjectByName(const std::string& name) const {
 #include "Room.h"
 #include "Puzzle.h"
 
-// Establish a SQLite connection for all world?loading and state?tracking.
+// Establish a SQLite connection for all world loading and state tracking.
 DatabaseManager::DatabaseManager(const std::string& dbPath)
     : connection(nullptr)
 {
