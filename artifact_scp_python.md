@@ -11,6 +11,16 @@ It’s fully playable in its current form, but intentionally minimal. The projec
 procedural logic, branching paths, and simple state management.
 
 ---
+
+<h3 style="text-align:center; display:block; width:100%;">Storyboard & Conceptual Maps</h3>
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="assets/artifacts/PythonSCP/art/StoryBoard.png" width="350">
+  <img src="assets/artifacts/PythonSCP/art/ConceptualMap.png" width="400">
+</div>
+
+<p align="center"><em>Storyboard (left) and conceptual layout (right) created during early planning.</em></p>
+
 ## Original Python Code
 <details markdown="1">
 <summary><strong>Click to view original Python code</strong></summary>
