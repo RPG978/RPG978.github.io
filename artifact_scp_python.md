@@ -229,6 +229,33 @@ Below is my code review video, where I walk through the original artifact, analy
 
 ---
 ## Narrative
+
+### Purpose of the Artifact
+The original Python SCP game was created early in my academic program as part of IT 140: Introduction to Scripting. The assignment required building a small, text based adventure that demonstrated basic programming constructs such as user input, branching logic, and simple state management. Although the project was modest in scope, it represented my first attempt at designing an interactive experience and translating a narrative concept into working code. This artifact captures the starting point of my development journey before I later rebuilt and expanded the game in C++.
+
+### Design Intent & Early Planning
+Before writing any Python code, I approached the project the way a game designer would: by defining the world, mapping the player’s path, and outlining the core interactions. I created original concept art and a storyboard map to visualize the environment, identify key rooms, and determine how the player would navigate the containment area. These early drawings helped establish the tone of the game and clarified where equipment, hazards, and the final encounter should be placed.
+Alongside the visual planning, I drafted pseudo code to outline the game loop, navigation logic, and item collection flow. This allowed me to break the project into manageable components and understand how each part of the system would interact. I also prepared a small design presentation that summarized the game’s structure, objectives, and progression. This step helped me articulate the intended player experience and ensured that the implementation stayed aligned with the original concept.
+Together, the storyboard, conceptual map, pseudo code, and design presentation formed a lightweight pre production pipeline. Even though the final Python version was simple, these planning materials guided the structure of the game, informed the room layout and interactions, and helped me think about the project as a cohesive experience rather than a collection of disconnected functions.
+Implementation & Core Features
+The Python implementation used a procedural, single file structure typical of early scripting projects. The game allowed the player to move between rooms, collect equipment, and progress toward a final encounter. Core features included a simple navigation system based on directional input, room descriptions and item discovery, basic state tracking for collected equipment, conditional logic that determined whether the player could progress, and a linear win/lose condition based on the player’s choices.
+While limited compared to the later C++ redesign, the Python version successfully demonstrated the fundamentals of interactive storytelling and control flow. It also provided the conceptual foundation for the more advanced systems I would later build.
+
+### Skills Demonstrated
+- __Basic control flow and branching logic__
+- __User input handling and validation__
+- __Procedural game loop design__
+- __Early state management techniques__
+- __Foundational game design planning__
+- __Use of storyboard and conceptual mapping to guide implementation__
+- __Clear text based UX messaging__
+- __Translating narrative ideas into functional code__
+
+### Challenges & Lessons Learned
+Building the Python SCP game taught me how to break a narrative concept into manageable programming tasks. One of the first challenges was structuring the game flow so that navigation, item collection, and progression felt coherent despite the limitations of a single file script. I learned the importance of organizing logic clearly, avoiding duplicated code, and thinking ahead about how different parts of the game would interact.
+Another lesson came from debugging. Early versions of the game revealed how easily inconsistent state or missing conditions could break the experience. Fixing these issues helped me understand the value of predictable control flow and careful sequencing of checks.
+Finally, working with the storyboard and conceptual map showed me how valuable visual planning can be, even for small projects. These early design tools made the implementation smoother and helped me think like a developer rather than just a script writer. The experience ultimately prepared me for the more advanced architectural work I later performed in the C++ version of the game.
+
 ---
 ## Enhanced Artifact
 The enhanced version of this project was implemented in C++ and is available here:
