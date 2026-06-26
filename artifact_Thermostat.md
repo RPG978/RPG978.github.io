@@ -12,6 +12,12 @@ was simulated via UART, the system was architected to eventually integrate with 
 
 ---
 
+<h3 style="text-align:center; display:block; width:100%;">UML State Machine Diagram</h3>
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="assets/artifacts/IoT/art/StateMachineUML.png" width="300">
+</div>
+
 ## Original Python Code
 <details markdown="1">
 <summary><strong>Click to view Python code</strong></summary>
@@ -447,7 +453,7 @@ while repeat:
 
 ---
 
-## Code Review Video
+## Device Demonstration Video: **[Click Here](https://youtu.be/9fKvK6Uw7Xc)**
 
 ---
 
