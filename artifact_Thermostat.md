@@ -459,6 +459,26 @@ while repeat:
 
 ## Narrative
 
+### Purpose of the Artifact
+This project involved designing and prototyping an IoT thermostat capable of eventually integrating with a cloud‑based analytics platform. The immediate engineering goal was to implement the core thermostat functionality on embedded hardware: reading temperature from an AHT20 sensor over I²C, managing heating and cooling states through a state machine, driving LEDs and a 16×2 LCD for user feedback, and supporting user interaction through physical buttons for mode changes and setpoint adjustments. The system also simulated cloud connectivity by sending periodic status updates over UART, representing how the device would later communicate with server software over Wi‑Fi.
+
+### Design Intent & Early Planning
+My design intent for the IoT thermostat was to build a prototype that behaved like a real embedded device rather than a scripted demonstration. Early planning focused on defining a clear state machine to manage Off, Heat, and Cool modes, ensuring that each state controlled the LEDs, LCD, and GPIO behavior in a predictable way. I mapped out the system’s behavior in Draw.io to visualize transitions and confirm that the hardware interactions aligned with the project requirements. From there, I planned the integration of the AHT20 temperature sensor over I²C, the UART telemetry loop to simulate cloud reporting, and the button‑driven user interface for mode changes and setpoint adjustments. I also evaluated three potential hardware platforms—Raspberry Pi, Microchip, and Freescale—to determine which architecture could best support a production‑grade smart thermostat with reliable peripheral support, integrated connectivity, and sufficient memory. This combination of behavioral modeling, hardware planning, and architectural evaluation ensured that the prototype was both functional and aligned with the long‑term goals of a scalable IoT thermostat design.
+
+### Skills Demonstrated
+- __Embedded hardware integration__
+- __Peripheral communication protocols:__ I²C, UART, GPIO
+- __State machine design and implementation__
+- __Python scripting for hardware control__
+- __Linux command‑line workflows and Raspberry Pi configuration__
+- __System diagramming and architectural evaluation__
+- __Clear documentation and code organization__
+
+### Challenges & Lessons Learned
+One challenge was producing clear, organized video documentation. Recording demonstrations required multiple takes, and I realized I need a more systematic approach to presenting embedded systems work. Another challenge was my limited Linux experience; tasks like navigating the file system, configuring interfaces, and managing permissions slowed me down. Strengthening these skills will make future embedded projects smoother.
+
+I also relied heavily on guided tutorials early in the project. While they were helpful, I recognized the importance of practicing similar tasks independently to build deeper troubleshooting confidence. On the positive side, the hands‑on construction of the thermostat came naturally, and translating the hardware behavior into Python code felt intuitive. 
+
 ---
 
 [<- Back to Portfolio](index.md)
