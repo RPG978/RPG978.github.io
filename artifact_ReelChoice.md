@@ -19,6 +19,10 @@ RecyclerView UI patterns, and asynchronous data handling.
 
 ## Code Review Video
 
+This review opens with a short app demo and then breaks down the MVVM architecture, focusing on how its layers abstract responsibilities to keep the source code clean with increased usability.
+
+**[View Code Review Video](https://youtu.be/x3r2B3bXwQQ)**
+
 ---
 
 ## Narrative
