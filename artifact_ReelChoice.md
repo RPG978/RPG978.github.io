@@ -9,6 +9,13 @@ ReelChoice is an Android application designed to help users quickly decide what 
 user‑friendly interface. This artifact demonstrates core mobile development skills including MVVM architecture, ViewModel state management, 
 RecyclerView UI patterns, and asynchronous data handling.
 
+<h3 style="text-align:center; display:block; width:100%;">Application Screenshots</h3>
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="assets/artifacts/ReelChoice.art/toWatchTab.png" width="300">
+  <img src="assets/artifacts/ReelChoice.art/watchedTab.png" width="300">
+</div>
+
 ---
 
 ## Original Java Code
