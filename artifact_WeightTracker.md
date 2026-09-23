@@ -17,12 +17,4 @@ health without distractions or data exploitation.
 
 ---
 
-## Code Review Video
-
----
-
-## Narrative
-
----
-
 [<- Back to Portfolio](index.md)
