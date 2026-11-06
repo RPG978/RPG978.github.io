@@ -449,7 +449,7 @@ while repeat:
 </details>
 
 - **Download / View Original Code:**  
-**[IoT Thermostat](https://github.com/RPG978/RPG978.github.io/tree/main/assets/artifacts)**
+**[IoT Thermostat](assets/artifacts/Thermostat.py)**
 
 ---
 
