@@ -217,7 +217,7 @@ while True:
 </details>
 
 - **Download / View Original Code:**  
-**[original.py](https://github.com/RPG978/RPG978.github.io/tree/main/assets/artifacts)**
+**[original.py](assets/artifacts/original.py)**
   
 ---
 ## Code Review Video
