@@ -8,7 +8,7 @@ layout: default
 The C++ SCP game is a full re‑implementation of the original Python SCP project. The goal of this enhancement was to transform a procedural, single‑file Python script into a scalable, maintainable, and extensible C++ application. The enhanced version introduces a multi-file architecture, encapsulated state and behavior, improved input handling, a data-driven world loaded from external files and a cleaner seperation of concerns.
 
 
-**[View Full Original C++ Project](https://github.com/RPG978/RPG978.github.io/tree/main/assets/artifacts/SCPGame)**
+**[View Full Original C++ Project](https://github.com/RPG978/SCP_Game)**
 
 ---
 
