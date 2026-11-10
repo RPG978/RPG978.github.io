@@ -8,6 +8,11 @@ Welcome to my Computer Science ePortfolio. This collection of artifacts represen
 
 # **Artifacts**
 
+## **100 Battles**
+This page presents 100 Battles, a turn-based RPG developed in modern C++. The project demonstrates object-oriented design, database integration, procedural content generation, state-driven gameplay, and graphical user interface development through SDL2 and Dear ImGui. Originally created as an experiment in character statistics and object design, it evolved into a data-driven game featuring combat systems, progression mechanics, and cross-platform build support. 
+
+**[100 Battles Page](artifact_100_battles.md)**
+
 ## **Python SCP Game**
 This page presents the original Python SCP text-based game, developed as part of IT-140. It demonstrates foundational programming skills including control flow, functions, input handling and basic game loop logic. This artifact later served as the foundation for the C++ enhanced version, which expanded the architecture and improved modularity.
 
