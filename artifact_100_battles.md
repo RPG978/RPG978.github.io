@@ -4,6 +4,11 @@ layout: default
 
 # 100 Battles
 
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="assets/artifacts/100_battles/art/camp.png" width="300">
+  <img src="assets/artifacts/100_battles/art/battle.png" width="300">
+</div>
+
 ## Artifact Summary
 
 100 Battles is a single-player, turn-based RPG developed in modern C++ that challenges players to survive a 
